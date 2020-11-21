@@ -151,17 +151,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "actix-test"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "jn-actix-initializer",
- "jn-actix-initializer-macros",
- "regex",
- "serde",
-]
-
-[[package]]
 name = "actix-testing"
 version = "1.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -853,6 +842,17 @@ name = "jn-actix-initializer-macros"
 version = "0.1.0"
 dependencies = [
  "regex",
+]
+
+[[package]]
+name = "jn-actix-test"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "jn-actix-initializer",
+ "jn-actix-initializer-macros",
+ "regex",
+ "serde",
 ]
 
 [[package]]

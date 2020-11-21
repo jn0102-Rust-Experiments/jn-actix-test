@@ -1,5 +1,5 @@
 [package]
-name = "actix-test"
+name = "jn-actix-test"
 version = "0.1.0"
 authors = ["John Robert <johnr.delacruz0102@outlook.com>"]
 edition = "2018"
